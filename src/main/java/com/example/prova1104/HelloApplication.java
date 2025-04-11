@@ -34,6 +34,8 @@ public class HelloApplication extends Application {
     private TextField prioridade;
     @FXML
     private ListView listaTarefa;
+    @FXML
+    private Button concluida;
 
     public static void main(String[] args) {
         launch();
