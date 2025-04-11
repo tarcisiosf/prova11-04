@@ -1,10 +1,14 @@
 package com.example.prova1104;
 
 import javafx.application.Application;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import javax.swing.text.html.ListView;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.io.IOException;
 
 public class HelloApplication extends Application {
@@ -16,6 +20,20 @@ public class HelloApplication extends Application {
         stage.setScene(scene);
         stage.show();
     }
+    @FXML
+    private Button addTarefa;
+    @FXML
+    private Button visuTarefa;
+    @FXML
+    private Button marcaTarefa;
+    @FXML
+    private TextField titulo;
+    @FXML
+    private TextField descricao;
+    @FXML
+    private TextField prioridade;
+    @FXML
+    private ListView listaTarefa;
 
     public static void main(String[] args) {
         launch();

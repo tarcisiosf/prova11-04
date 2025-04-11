@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="listTarefas" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prova1104.MarcarTarefa">
+   <children>
+      <Label layoutX="240.0" layoutY="14.0" prefHeight="42.0" prefWidth="119.0" text="Marcar Tarefas">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ListView fx:id="listaTarefa" layoutX="27.0" layoutY="56.0" prefHeight="200.0" prefWidth="546.0" />
+      <TextField fx:id="tituloMarcarT" layoutX="27.0" layoutY="281.0" prefHeight="26.0" prefWidth="455.0" />
+      <Button fx:id="concluida" layoutX="492.0" layoutY="281.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" text="Concluída" textFill="#038e34" />
+      <Label layoutX="27.0" layoutY="264.0" prefHeight="18.0" prefWidth="142.0" text="Título da tarefa desejada" textFill="#b10303" />
+   </children>
+</AnchorPane>
